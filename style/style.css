@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+   background: #141414;
+   font-family: "Inter", sans-serif;
+}
+.card-1{
+    margin: 100px auto;
+    background: #1f1f1f;
+    max-width: 90%;
+    width: 360px;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+.imagen_1{
+   
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 35px 40% 0px 40%;
+  
+}
+.texto1{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+}.texto2{
+    color: #c0e04c;
+    text-align: center;
+    font-size: 12px;
+    margin: -15px 0px 0px 0px;
+
+}
+.texto3{
+    text-align: center;
+    font-size: 15px;
+    color: #f4f4f4;
+    opacity: 95%;
+}
+.botones{
+    display: grid;
+    gap: 20px;
+    padding: 10px 50px 30px;
+}
+.boton1, .boton2, .boton3, .boton4, .boton5{
+    text-decoration: none;
+    text-align: center;
+    padding: 13px;
+    border-radius: 10px;
+    background: #333333;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: solid 1px;
+}
+
+.boton1:hover,.boton2:hover,.boton3:hover,.boton4:hover,.boton5:hover{
+    background: #c0e04c;
+}
